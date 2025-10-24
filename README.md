@@ -41,24 +41,6 @@ Optional (for richer lexicon matching):
 
 pip install textblob liwc
 
-2. Repository Structure
-├── data/
-│   └── sample_text.txt             # synthetic input dataset
-├── notebooks/
-│   └── KG_pipeline.ipynb           # end-to-end implementation
-├── outputs/
-│   ├── KnowledgeGraph_Final.graphml
-│   ├── normalized_entities.json
-│   ├── personality_traits.json
-│   └── graph_visualization.png
-├── src/
-│   ├── preprocessing.py
-│   ├── extraction.py
-│   ├── normalization.py
-│   ├── personality.py
-│   ├── graph_construction.py
-│   └── validation.py
-└── README.md
 
 🚀 Execution
 Step 1 – Preprocessing
